@@ -1,0 +1,186 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'MedievalSharp', cursive;
+}
+
+#title {
+  background-color: #E14D2A;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 0 2% 2%;
+}
+
+nav {
+  margin-bottom: 2rem;
+}
+
+.lib-name {
+  margin-top: 0.5rem;
+}
+
+.title-img {
+  margin-left: 1.5rem;
+  text-align: center;
+}
+
+.big-heading {
+  margin-bottom: 1rem;
+}
+
+.btn {
+  margin: 3% 3% 5% 0;
+}
+
+p {
+  text-align: center;
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.nav-link {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+
+@media (min-width: 1000px) {
+  .title-img {
+    width: 650px;
+    height: 632px;
+    margin-top: 1rem;
+    margin-left: 8rem;
+  }
+}
+
+#links {
+  margin: 2rem;
+}
+
+.links-heading {
+  margin: 2rem 0 3rem;
+  color: #001253;
+  font-weight: 900;
+}
+
+.grid-links {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 2rem 2rem 3rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.websites-logo {
+  width: 150px;
+  height: 150px;
+  margin: 1rem;
+}
+
+.vertical-line {
+  width: 4px;
+  height: 50px;
+  background-color: #001253;
+  margin-left: 50%;
+  border-radius: 1rem;
+}
+
+.links-for-logo:link {
+  color: #3E6D9C;
+  text-decoration: none;
+}
+
+.links-for-logo:visited {
+  color: rgb(0, 18, 100);
+}
+
+.links-for-logo:hover {
+  color: rgb(225, 77, 42);
+  font-size: 17px;
+}
+
+a {
+  font-weight: 900;
+}
+
+#content {
+  padding: 1rem;
+  background-color: rgb(253, 132, 31);
+  color: #fff;
+}
+
+.grid-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.left-section {
+  border-radius: 25px;
+  border: 5px solid rgb(62, 109, 156);
+  border-style: dotted;
+  padding: 20px;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  margin: auto;
+}
+
+.right-section {
+  border-radius: 25px;
+  border: 2px solid rgb(0, 18, 83);
+  padding: 20px;
+  width: 550px;
+  height: 800px;
+  text-align: center;
+  margin: auto;
+}
+
+video {
+  border: 5px solid rgb(0, 18, 100);
+  border-radius: 25px;
+  background: black;
+}
+
+#download {
+  text-align: center;
+  padding: 5% 15%;
+}
+
+/* Footer */
+#footer {
+  padding: 4% 35% 3%;
+  text-align: center;
+  background-color: rgb(0, 18, 110);
+}
+
+.p4footer {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+.footer-c-padding {
+  padding-top: 8%;
+}
+
+/* ion-icon {
+  font-size: 2rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+} */
+
+.footer-logo {
+  font-size: 4rem;
+  margin: 1rem 1rem 1rem;
+}

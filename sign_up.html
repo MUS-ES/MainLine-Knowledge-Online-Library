@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Sign-up Page</title>
+  <link rel="stylesheet" href="CSS/sign_up.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <div class="form-container">
+        <h2>Welcome To Our Online Library, We Are Waiting For You</h2>
+        <form class="" action="home-page.html" method="post">
+          <label>User Name:</label>
+          <input type="text" name="userName" value="" required autofocus>
+          <label>Email:</label>
+          <input type="email" name="email" value="" required>
+          <label>Password:</label>
+          <input type="password" placeholder="Password" name="pwd" value="" required>
+          <!-- <label>Confirm Password:</label>
+              <input type="password" placeholder="Confirm Password" name="confirmPwd" value="" required> -->
+          <label>Phone Number:</label>
+          <input type="number" name="phoneNumber" value="">
+          <label>Birth Date:</label>
+          <input id="date-field" type="date" name="birthDate" value="" required>
+          <div class="btn-container">
+            <button type="reset" name="resetButton">Form Reset</button>
+            <button type="submit" name="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+      <div class="img-container">
+        <img id="img1" src="images/books.png" alt="Book Shelter Png">
+        <img id="img2" src="images/books.png" alt="Book Shelter Png">
+        <img id="img3" src="images/books.png" alt="Book Shelter Png">
+      </div>
+      <div class="vertical-bar"></div>
+    </div>
+  </main>
+</body>
+
+</html>
